@@ -1,12 +1,10 @@
 package ru.itpark.probro.controllers;
 
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
 import org.springframework.web.bind.annotation.*;
-import ru.itpark.probro.forms.NamesForm;
 import ru.itpark.probro.forms.UpdateForm;
 import ru.itpark.probro.models.User;
 import ru.itpark.probro.services.AuthenticationService;
